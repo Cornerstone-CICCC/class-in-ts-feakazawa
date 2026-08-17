@@ -1,6 +1,6 @@
 import { Luggage } from "./luggage";
 
-class carryOn extends Luggage {
+class CarryOn extends Luggage {
   get getPrice(): number {
     const extraWeight = this.getWeight - 5;
     const finalPrice =
@@ -10,4 +10,4 @@ class carryOn extends Luggage {
   }
 }
 
-export { carryOn };
+export { CarryOn };
