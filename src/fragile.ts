@@ -1,6 +1,6 @@
 import { Luggage, Priority } from "./luggage";
 
-class fragile extends Luggage {
+class Fragile extends Luggage {
   get getPrice(): number {
     let finalPrice = 0;
 
@@ -16,4 +16,4 @@ class fragile extends Luggage {
   }
 }
 
-export { fragile };
+export { Fragile };
