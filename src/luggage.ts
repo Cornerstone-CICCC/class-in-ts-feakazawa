@@ -18,6 +18,10 @@ class Luggage {
   }
 
   set setWeigth(weight: number) {
+    if (weight <= 0) {
+      throw new Error("Invalid weight! Please set weight > 0");
+    }
+
     this.weight = weight;
   }
 
