@@ -1,6 +1,6 @@
 import { Luggage, Priority } from "./luggage";
 
-class regular extends Luggage {
+class Regular extends Luggage {
   get getPrice(): number {
     const actualWeight = this.getWeight;
     let extraWeight = actualWeight - 23;
@@ -22,4 +22,4 @@ class regular extends Luggage {
   }
 }
 
-export { regular };
+export { Regular };
