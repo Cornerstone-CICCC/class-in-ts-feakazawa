@@ -13,7 +13,7 @@ const luggage2 = new Luggage(
   Priority.Normal,
 );
 
-describe("testing Luggage class", () => {
+describe("Testing Luggage class", () => {
   test("Return luggage weight", () => {
     expect(luggage1.getWeight).toBe(10);
   });
